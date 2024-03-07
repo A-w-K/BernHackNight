@@ -153,6 +153,7 @@ public class PlayerController : MonoBehaviour, IPlayerController
 
     private void HandleDirection()
     {
+        // TODO: Task 2 - make player face the right direction
         if (_frameInput.Move.x == 0)
         {
             var deceleration = _grounded ? _stats.GroundDeceleration : _stats.AirDeceleration;
